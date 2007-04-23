@@ -1,11 +1,11 @@
 #
-# $Id$
+# $Id: Frame.pm,v 1.2 2007/04/23 20:50:29 gomor Exp $
 #
 package Bundle::Net::Frame;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 1;
 
@@ -52,6 +52,10 @@ Net::Frame::Layer::LOOP - LOOP layer object
 Net::Frame::Layer::OSPF - Open Shortest Path First layer object
 
 Net::Frame::Layer::STP - Spanning Tree Protocol layer object
+
+Net::Frame::Layer::PPPLCP - PPP Link Control Protocol layer object
+
+Net::Frame::Layer::PPPoES - PPP-over-Ethernet layer object
 
 =head1 DESCRIPTION
 

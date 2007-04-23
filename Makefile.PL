@@ -1,5 +1,5 @@
 #
-# $Id$
+# $Id: Makefile.PL,v 1.1 2007/04/01 16:49:18 gomor Exp $
 #
 use ExtUtils::MakeMaker;
 

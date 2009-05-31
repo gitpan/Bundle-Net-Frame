@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::Net::Frame.
 
+1.02 Sun May 31 16:04:11 CEST 2009
+   - added UDPLite dist
+   - update: copyright notice
+
 1.01 Mon Apr 23 22:49:31 CEST 2007
    - added PPPLCP and PPPoES dists
 

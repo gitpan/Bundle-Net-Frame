@@ -1,5 +1,5 @@
 #
-# $Id: Makefile.PL,v 1.1 2007/04/01 16:49:18 gomor Exp $
+# $Id: Makefile.PL 7 2009-05-31 14:04:33Z gomor $
 #
 use ExtUtils::MakeMaker;
 
@@ -8,7 +8,7 @@ require v5.6.1;
 WriteMakefile(
    NAME          => 'Bundle::Net::Frame',
    VERSION_FROM  => 'lib/Bundle/Net/Frame.pm',
-   LICENSE       => 'Artistic',
+   LICENSE       => 'artistic',
    ABSTRACT_FROM => 'lib/Bundle/Net/Frame.pm',
-   AUTHOR        => 'GomoR <perl@gomor.org>',
+   AUTHOR        => 'GomoR <gomor-cpan_at_gomor.org>',
 );

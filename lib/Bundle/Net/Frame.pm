@@ -1,11 +1,10 @@
 #
-# $Id: Frame.pm,v 1.2 2007/04/23 20:50:29 gomor Exp $
+# $Id: Frame.pm 7 2009-05-31 14:04:33Z gomor $
 #
 package Bundle::Net::Frame;
-use strict;
-use warnings;
+use strict; use warnings;
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 1;
 
@@ -57,6 +56,8 @@ Net::Frame::Layer::PPPLCP - PPP Link Control Protocol layer object
 
 Net::Frame::Layer::PPPoES - PPP-over-Ethernet layer object
 
+Net::Frame::Layer::UDPLite - UDPLite layer object
+
 =head1 DESCRIPTION
 
 This is a bundle of Net::Frame related modules.
@@ -67,7 +68,7 @@ Patrice E<lt>GomoRE<gt> Auffret
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2006-2007, Patrice E<lt>GomoRE<gt> Auffret
+Copyright (c) 2006-2009, Patrice E<lt>GomoRE<gt> Auffret
 
 You may distribute this module under the terms of the Artistic license.
 See LICENSE.Artistic file in the source distribution archive.
